@@ -1,4 +1,4 @@
-package org.formation.modulith_yohann_pech;
+package org.formation.shop.modulith_yohann_pech;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

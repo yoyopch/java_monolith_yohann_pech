@@ -1,4 +1,4 @@
-package org.formation.modulith_yohann_pech;
+package org.formation.shop;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

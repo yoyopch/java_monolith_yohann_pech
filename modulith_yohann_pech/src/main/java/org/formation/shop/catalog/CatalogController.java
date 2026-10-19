@@ -1,4 +1,4 @@
-package org.formation.catalog;
+package org.formation.shop.catalog;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
