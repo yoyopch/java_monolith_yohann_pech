@@ -1,13 +1,13 @@
-package org.formation.shop;
+package org.formation;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ModulithYohannPechApplication {
+public class DemoModulithSb4Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(ModulithYohannPechApplication.class, args);
+        SpringApplication.run(DemoModulithSb4Application.class, args);
     }
 
 }

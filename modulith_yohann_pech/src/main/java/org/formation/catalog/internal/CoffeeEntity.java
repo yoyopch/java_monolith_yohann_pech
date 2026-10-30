@@ -1,4 +1,5 @@
-package org.formation.shop.catalog.internal;
+package org.formation.catalog.internal;
+
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -14,11 +15,10 @@ public class CoffeeEntity {
     private String name;
     private int price;
 
-    protected CoffeeEntity(){
-
+    protected CoffeeEntity() {
     }
 
-    public CoffeeEntity(String name, int price){
+    public CoffeeEntity(String name, int price) {
         this.name = name;
         this.price = price;
     }

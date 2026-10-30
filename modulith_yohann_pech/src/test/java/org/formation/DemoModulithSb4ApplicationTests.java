@@ -1,10 +1,10 @@
-package org.formation.shop.modulith_yohann_pech;
+package org.formation;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ModulithYohannPechApplicationTests {
+class DemoModulithSb4ApplicationTests {
 
     @Test
     void contextLoads() {

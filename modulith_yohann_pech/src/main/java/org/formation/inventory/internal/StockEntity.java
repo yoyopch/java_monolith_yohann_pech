@@ -1,4 +1,5 @@
-package org.formation.shop.inventory.internal;
+package org.formation.inventory.internal;
+
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -14,11 +15,12 @@ public class StockEntity {
     private Long coffeeId;
     private int quantity;
 
-    protected StockEntity(){}
+    protected StockEntity() {
+    }
 
-    public StockEntity(Long coffeeId, int quantity){
+    public StockEntity(Long coffeeId, int quantity) {
         this.coffeeId = coffeeId;
-        this.quantity  = quantity;
+        this.quantity = quantity;
     }
 
     public Long getCoffeeId() {
